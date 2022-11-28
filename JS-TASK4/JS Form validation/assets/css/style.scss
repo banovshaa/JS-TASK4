@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    #formEl{
+        background-color: rgb(151, 174, 163); 
+        #form{
+            text-align: center;
+            transform: translateY(40%);
+            h1{
+                margin-bottom: 1rem;
+                font-size: 45px;
+            }
+            .item{
+                .not{
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: red;
+                }
+                p{
+                    margin: .5rem 0;
+                    font-size: 20px;
+                }
+                .inp-icn{
+                    position: relative;
+                    input{
+                        font-size: 20px;
+                        width: 55%;
+                        border: 1px solid #888;
+                        border-radius: 5px;
+                        padding: 5px 40px;
+                        outline: #888;
+                    } 
+                    #right{
+                        position: absolute;
+                        right:25%;
+                        top:25% ;
+                        font-size: 20px;
+                        color: rgb(5, 88, 5);
+        
+                    }
+                    #left{
+                        position: absolute;
+                        left:25%;
+                        top:25%;
+                        margin-top: 2px;
+                    }
+                    
+                }
+
+            }
+            
+            .btn{
+                margin-top: 2rem;
+                background-color: #132E1D;
+                color: white;
+                width: 55%;
+                font-size: 20px;
+                padding: 10px ;
+                transition: .6s;
+                &:hover{
+                   background-color: #030A07;
+                }
+            }
+          
+        }
+    }
+}
